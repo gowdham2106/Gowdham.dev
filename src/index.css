@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400;500;700;800;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Kanit', sans-serif;
+  color: #d7e2ea;
+  background: #0c0c0c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background: #0c0c0c;
+}
+
+html {
+  background: #0c0c0c;
+}
+
+body {
+  margin: 0;
+  background: #0c0c0c;
+  color: #d7e2ea;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hero-heading {
+  background: linear-gradient(180deg, #646973 0%, #bbccd7 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html,
+body,
+#root,
+main {
+  background: #0c0c0c;
+}
+
+#root {
+  min-height: 100vh;
+}
+
