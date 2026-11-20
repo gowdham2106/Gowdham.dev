@@ -1,0 +1,5 @@
+
+User-agent: *
+Allow: /
+
+Sitemap: https://gowdham21.is-a.dev/sitemap.xml
